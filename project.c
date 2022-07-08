@@ -1,5 +1,5 @@
-#include &lt;stdio.h&gt;
-#include &lt;string.h&gt;
+#include <stdio.h>
+#include <string.h>
  
 int A(char *arg)
 {
@@ -28,7 +28,7 @@ int D(char *arg)
  
 int main(int argc, char **argv)
 {
-    if ((A(argv[1]) || B(argv[2])) &amp;&amp; (C(argv[3]) || D(argv[4]))) {
+    if ((A(argv[1]) || B(argv[2])) && (C(argv[3]) || D(argv[4]))) {
         printf("TRUE\n");
     } else {
         printf("FALSE\n");
